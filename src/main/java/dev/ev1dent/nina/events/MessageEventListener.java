@@ -39,7 +39,7 @@ public class MessageEventListener extends ListenerAdapter {
 
                 // add the muted role to the user
                 event.getGuild().addRoleToMember(member, muted).queue();
-                TextChannel admin = event.getGuild().getTextChannelById(1034636667929247765L);
+                TextChannel admin = event.getGuild().getTextChannelById(775966134104883239L);
 
                 admin.sendMessageEmbeds(theseFuckingRandysBro.build()).queue();
                 message.delete().queue();
