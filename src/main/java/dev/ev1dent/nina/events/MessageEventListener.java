@@ -34,7 +34,7 @@ public class MessageEventListener extends ListenerAdapter {
                 EmbedBuilder theseFuckingRandysBro = new EmbedBuilder()
                         .setTitle("these fucking randys bro....", null)
                         .setColor(Color.RED)
-                        .setDescription("Someone posted an XQII spam message, or mentioned them. " +
+                        .setDescription(member.getId() +  " posted an XQII spam message, or mentioned them. " +
                                 "I went ahead and muted them, and deleted the message for you. 😁");
 
                 // add the muted role to the user
