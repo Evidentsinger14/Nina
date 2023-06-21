@@ -40,5 +40,8 @@ public class NinaBrains {
                 // Build code into a bot.
                 .build();
 
+        jda.updateCommands().queue();
+        jda.upsertCommand("ping", "ping pong").setGuildOnly(true).queue();
+
     }
 }
